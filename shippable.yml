@@ -8,6 +8,8 @@ php:
 
 services:
   - redis
+  
+build_image: drydock/u14phppls:tip
 
 before_script: 
   - mkdir -p shippable/testresults
